@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{99793d77-93b8-4896-8aa4-d13c676a8eb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Monster">
+      <UniqueIdentifier>{e738f720-4451-4662-94c1-23df197db0af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Player">
+      <UniqueIdentifier>{dd9613f8-89ca-4894-ad40-9df3ae3cb52b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Player\Archer">
+      <UniqueIdentifier>{6b430048-ec2f-40ce-a7ba-d735429ea7b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Player\Knight">
+      <UniqueIdentifier>{7be9dcba-b8f6-4b9a-a8c0-c0e5277733e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Player\Mage">
+      <UniqueIdentifier>{b02afdfb-ec5e-456f-b19e-864b2e64857e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Monster\Boss">
+      <UniqueIdentifier>{121d24e6-a9a3-4ec8-a462-24c9327c504e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{02b7bb1c-6c59-4d45-8a17-9992e6f0c5e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Object\Monster\Monster.cpp">
+      <Filter>Object\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Player\Archer\Archer.cpp">
+      <Filter>Object\Player\Archer</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Player\Knight\Knight.cpp">
+      <Filter>Object\Player\Knight</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Player\Mage\Mage.cpp">
+      <Filter>Object\Player\Mage</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Creature.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Player\Player.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Monster\Boss\Boss.cpp">
+      <Filter>Object\Monster\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="BossRaid.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="World\Soundmanager.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="World\World.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="framework.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Object\Player\Archer\Archer.h">
+      <Filter>Object\Player\Archer</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Player\Knight\Knight.h">
+      <Filter>Object\Player\Knight</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Player\Mage\Mage.h">
+      <Filter>Object\Player\Mage</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Monster\Monster.h">
+      <Filter>Object\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Player\Player.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Creature.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Monster\Boss\Boss.h">
+      <Filter>Object\Monster\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="World\Soundmanager.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="World\World.h" />
+    <ClInclude Include="framework.h" />
+  </ItemGroup>
+</Project>
